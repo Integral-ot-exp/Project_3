@@ -1,0 +1,105 @@
+{
+  "uuid": "d585d674178021fb9608be5a3e0f8597",
+  "path": "Offline/%D0%9C%D0%B0%D1%82%D1%80%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B2%D0%B5%D1%82%D0%BE%D0%B4%D0%B8%D0%BE%D0%B4",
+  "name": "Матричный светодиод",
+  "content": "Курсовой проект №3. Науч. рук. Орлов С. В., студент Татаров Д.С.",
+  "created_at": "2024-11-04 13:03:07",
+  "updated_at": "2024-11-04 13:41:24",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "8b8b5f376f4052f5fe356a2d396e9a1b",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "38cdb078e742415c9601ed5dbc910d33": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 2,
+        "99aa11c84c1545a1af2daf5d364363ca": 1,
+        "93b44d62463c4c9c82dd7108c8ee7d73": 1,
+        "064da6e902a34d89bdea8835bc599023": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10pF",
+          2,
+          "C0603",
+          "C1,C2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HDR-M-2.54_1x6",
+          1,
+          "HDR-M-2.54_1X6",
+          "J1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C190819"
+          }
+        ],
+        [
+          "ATMEGA8-16PU",
+          1,
+          "DIP-28_L35.0-W6.5-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "Manufacturer Part": "ATMEGA8-16PU",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C112958"
+          }
+        ],
+        [
+          "USB-Micro_1",
+          1,
+          "MICRO-USB-SMD_5P-P0.65-H-F_C10418",
+          "USB1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "ValuePro",
+            "Supplier": "LCSC",
+            "Supplier Part": "C10418"
+          }
+        ],
+        [
+          "8MHz",
+          1,
+          "OSC-SMD_2P-L3.2-W2.5",
+          "X1",
+          {
+            "Manufacturer Part": "NX3225GD-8MHZ-STD-CRA-3",
+            "Manufacturer": "NDK",
+            "Supplier": "LCSC",
+            "Supplier Part": "C889706"
+          }
+        ]
+      ],
+      "updateTime": 1730716884,
+      "createTime": 1730714588,
+      "histories": [],
+      "created_at": "2024-11-04 13:03:08",
+      "updated_at": "2024-11-04 13:41:24"
+    }
+  ],
+  "sort": [],
+  "title": "Матричный светодиод",
+  "foldername": "Матричный светодиод",
+  "schfilename": "Матричный светодиод.json",
+  "schfilemtime": 1730716884859
+}

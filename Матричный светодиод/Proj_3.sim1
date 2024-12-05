@@ -1,0 +1,15 @@
+<circuit version="1.1.0-RC1" rev="2162" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Voltage Source" CircId="Voltage Source-3" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-132,-232" rotation="0" hflip="1" vflip="1" label="Voltage Source-3" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Running="false" Value_Volt="4.685 V" MaxValue="5 V" MinValue="0 V" />
+
+<item itemtype="WS2812" CircId="WS2812-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-260,24" rotation="0" hflip="1" vflip="1" label="WS2812-2" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="11 _Leds" Cols="40 _Leds" />
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-84,-264" rotation="0" hflip="1" vflip="1" label="Uno-1" idLabPos="100,-21" labelrot="0" valLabPos="0,0" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="Project_3.hex" Auto_Load="false" saveEepr="true" SerialMon="-1" />
+</item>
+
+<item itemtype="Connector" uid="Connector-1" startpinid="WS2812-2-InPin" endpinid="Uno-1-6" pointList="-272,24,-304,24,-304,-200,-76,-200" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="Voltage Source-3-outPin" endpinid="Uno-1-4" pointList="-104,-216,-76,-216" />
+
+</circuit>
