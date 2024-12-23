@@ -2,92 +2,52 @@
 
 <item itemtype="WaveGen" CircId="WaveGen-4" mainComp="false" Show_id="false" Show_Val="false" Pos="116,-220" rotation="0" hflip="1" vflip="1" label="WaveGen-4" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Sine" Freq="1000 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
 
+<item itemtype="WaveGen" CircId="WaveGen-14" mainComp="false" Show_id="false" Show_Val="false" Pos="112,-256" rotation="0" hflip="1" vflip="1" label="WaveGen-14" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Sine" Freq="20 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
+
 <item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-88,-252" rotation="0" hflip="1" vflip="1" label="Uno-1" idLabPos="100,-21" labelrot="0" valLabPos="0,0" valLabRot="0" Logic_Symbol="false">
 <mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="Project_3_1.hex" Auto_Load="false" saveEepr="true" SerialMon="-1" />
 </item>
 
-<item itemtype="Resistor" CircId="Resistor-23" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-184,-228" rotation="0" hflip="1" vflip="1" label="Resistor-23" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="200 kΩ" />
-
-<item itemtype="AudioOut" CircId="AudioOut-37" mainComp="false" Show_id="false" Show_Val="false" Pos="248,-172" rotation="0" hflip="1" vflip="1" label="AudioOut-37" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="false" Impedance="8 Ω" />
-
-<item itemtype="WaveGen" CircId="WaveGen-18" mainComp="false" Show_id="false" Show_Val="false" Pos="168,-304" rotation="0" hflip="1" vflip="1" label="WaveGen-18" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Sine" Freq="440 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
-
-<item itemtype="opAmp" CircId="opAmp-22" mainComp="false" Show_id="false" Show_Val="false" Pos="-188,-192" rotation="-180" hflip="1" vflip="1" label="opAmp-22" idLabPos="-16,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Gain="1000" Out_Imped="1e-14 Ω" Power_Pins="false" Switch_Pins="false" Volt_Pos="5 V" Volt_Neg="0 V" />
-
 <item itemtype="LAnalizer" CircId="LAnalizer-6" mainComp="false" Show_id="false" Show_Val="false" Pos="480,-60" rotation="0" hflip="1" vflip="1" label="LAnalizer-6" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Пиксел." Basic_Y="135 _Пиксел." BufferSize="100000 Образцы" InputAdmit="0.1 µ℧" TimDiv="671078" TimPos="-8486860839" VolDiv="0.15" Tunnels=",,,,,,,," Trigger="9" TimeStep="1000 _ps" AutoExport="false" TresholdR="2.5 V" Bus="false,false,false,false,false,false,false,false," TresholdF="2.5 V" />
 
-<item itemtype="WaveGen" CircId="WaveGen-16" mainComp="false" Show_id="false" Show_Val="false" Pos="152,-280" rotation="0" hflip="1" vflip="1" label="WaveGen-16" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Sine" Freq="5000 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
-
-<item itemtype="WaveGen" CircId="WaveGen-14" mainComp="false" Show_id="false" Show_Val="false" Pos="112,-256" rotation="0" hflip="1" vflip="1" label="WaveGen-14" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Sine" Freq="20 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
-
-<item itemtype="Probe" CircId="Probe-13" mainComp="false" Show_id="false" Show_Val="true" Pos="-228,-112" rotation="-45" hflip="1" vflip="1" label="Probe-13" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
-
-<item itemtype="Resistor" CircId="Resistor-27" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-124,-184" rotation="0" hflip="1" vflip="1" label="Resistor-27" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 kΩ" />
+<item itemtype="WaveGen" CircId="WaveGen-16" mainComp="false" Show_id="false" Show_Val="false" Pos="152,-280" rotation="0" hflip="1" vflip="1" label="WaveGen-16" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="5000 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
 
 <item itemtype="WS2812" CircId="WS2812-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-264,20" rotation="0" hflip="1" vflip="1" label="WS2812-2" idLabPos="-16,-24" labelrot="0" valLabPos="0,0" valLabRot="0" Rows="8 _Leds" Cols="8 _Leds" />
 
-<item itemtype="Node" CircId="Node-17" mainComp="false" Pos="168,-196" />
+<item itemtype="WaveGen" CircId="WaveGen-18" mainComp="false" Show_id="false" Show_Val="false" Pos="168,-304" rotation="0" hflip="1" vflip="1" label="WaveGen-18" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Running="false" Wave_Type="Sine" Freq="440 Hz" Phase="0 _º" Steps="100 _Steps" Duty="50 _%" Always_On="false" Bipolar="false" Floating="false" Semi_Ampli="2.5 V" Mid_Volt="0 V" />
 
 <item itemtype="Node" CircId="Node-15" mainComp="false" Pos="144,-196" />
-
-<item itemtype="Node" CircId="Node-38" mainComp="false" Pos="64,-172" />
-
-<item itemtype="Node" CircId="Node-39" mainComp="false" Pos="232,-196" />
 
 <item itemtype="Node" CircId="Node-19" mainComp="false" Pos="184,-196" />
 
 <item itemtype="Node" CircId="Node-41" mainComp="false" Pos="-108,-96" />
 
+<item itemtype="Node" CircId="Node-17" mainComp="false" Pos="168,-196" />
+
 <item itemtype="Node" CircId="Node-7" mainComp="false" Pos="132,-196" />
-
-<item itemtype="Node" CircId="Node-29" mainComp="false" Pos="-108,-164" />
-
-<item itemtype="Node" CircId="Node-28" mainComp="false" Pos="-148,-184" />
-
-<item itemtype="Connector" uid="Connector-25" startpinid="WaveGen-18-outnod" endpinid="Node-19-1" pointList="184,-304,184,-196" />
-
-<item itemtype="Connector" uid="Connector-71" startpinid="Node-29-1" endpinid="Node-41-0" pointList="-108,-164,-108,-96" />
-
-<item itemtype="Connector" uid="Connector-70" startpinid="Node-41-1" endpinid="WS2812-2-InPin" pointList="-108,-96,-276,-96,-276,20" />
-
-<item itemtype="Connector" uid="Connector-48" startpinid="Node-28-2" endpinid="opAmp-22-inputNinv" pointList="-148,-184,-164,-184" />
-
-<item itemtype="Connector" uid="Connector-60" startpinid="opAmp-22-inputInv" endpinid="Node-38-0" pointList="-164,-200,-164,-348,32,-348,32,-172,64,-172" />
-
-<item itemtype="Connector" uid="Connector-8" startpinid="WaveGen-4-outnod" endpinid="Node-7-0" pointList="132,-220,132,-196" />
-
-<item itemtype="Connector" uid="Connector-46" startpinid="Resistor-27-lPin" endpinid="Node-28-1" pointList="-140,-184,-148,-184" />
-
-<item itemtype="Connector" uid="Connector-59" startpinid="AudioOut-37-rPin" endpinid="Node-38-1" pointList="232,-172,64,-172" />
-
-<item itemtype="Connector" uid="Connector-52" startpinid="Node-29-2" endpinid="Uno-1-8" pointList="-108,-164,-80,-164" />
-
-<item itemtype="Connector" uid="Connector-61" startpinid="Node-38-2" endpinid="Uno-1-GND0" pointList="64,-172,64,-172" />
-
-<item itemtype="Connector" uid="Connector-23" startpinid="Node-15-2" endpinid="Node-17-0" pointList="144,-196,168,-196" />
-
-<item itemtype="Connector" uid="Connector-63" startpinid="Node-19-2" endpinid="Node-39-0" pointList="184,-196,232,-196" />
 
 <item itemtype="Connector" uid="Connector-72" startpinid="Node-41-2" endpinid="LAnalizer-6-Pin7" pointList="-108,-96,-108,-12,392,-12" />
 
-<item itemtype="Connector" uid="Connector-64" startpinid="Node-39-2" endpinid="LAnalizer-6-Pin0" pointList="232,-196,392,-196,392,-124" />
+<item itemtype="Connector" uid="Connector-70" startpinid="Node-41-1" endpinid="WS2812-2-InPin" pointList="-108,-96,-276,-96,-276,20" />
 
-<item itemtype="Connector" uid="Connector-69" startpinid="Resistor-23-lPin" endpinid="opAmp-22-output" pointList="-200,-228,-212,-228,-212,-192" />
+<item itemtype="Connector" uid="Connector-22" startpinid="WaveGen-16-outnod" endpinid="Node-17-1" pointList="168,-280,168,-196" />
 
-<item itemtype="Connector" uid="Connector-19" startpinid="WaveGen-14-outnod" endpinid="Node-15-1" pointList="128,-256,144,-256,144,-196" />
+<item itemtype="Connector" uid="Connector-76" startpinid="Node-41-0" endpinid="Uno-1-8" pointList="-108,-96,-108,-164,-80,-164" />
 
-<item itemtype="Connector" uid="Connector-9" startpinid="Node-7-2" endpinid="Uno-1-A0" pointList="132,-196,64,-196" />
+<item itemtype="Connector" uid="Connector-8" startpinid="WaveGen-4-outnod" endpinid="Node-7-0" pointList="132,-220,132,-196" />
 
-<item itemtype="Connector" uid="Connector-47" startpinid="Resistor-23-rPin" endpinid="Node-28-0" pointList="-168,-228,-148,-228,-148,-184" />
+<item itemtype="Connector" uid="Connector-25" startpinid="WaveGen-18-outnod" endpinid="Node-19-1" pointList="184,-304,184,-196" />
 
-<item itemtype="Connector" uid="Connector-62" startpinid="AudioOut-37-lPin" endpinid="Node-39-1" pointList="232,-180,232,-196" />
+<item itemtype="Connector" uid="Connector-73" startpinid="Node-19-2" endpinid="LAnalizer-6-Pin0" pointList="184,-196,392,-196,392,-124" />
 
 <item itemtype="Connector" uid="Connector-20" startpinid="Node-7-1" endpinid="Node-15-0" pointList="132,-196,144,-196" />
 
+<item itemtype="Connector" uid="Connector-19" startpinid="WaveGen-14-outnod" endpinid="Node-15-1" pointList="128,-256,144,-256,144,-196" />
+
 <item itemtype="Connector" uid="Connector-26" startpinid="Node-17-2" endpinid="Node-19-0" pointList="168,-196,184,-196" />
 
-<item itemtype="Connector" uid="Connector-51" startpinid="Resistor-27-rPin" endpinid="Node-29-0" pointList="-108,-184,-108,-164" />
+<item itemtype="Connector" uid="Connector-23" startpinid="Node-15-2" endpinid="Node-17-0" pointList="144,-196,168,-196" />
 
-<item itemtype="Connector" uid="Connector-22" startpinid="WaveGen-16-outnod" endpinid="Node-17-1" pointList="168,-280,168,-196" />
+<item itemtype="Connector" uid="Connector-9" startpinid="Node-7-2" endpinid="Uno-1-A0" pointList="132,-196,64,-196" />
 
 </circuit>

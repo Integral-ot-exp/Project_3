@@ -2,7 +2,7 @@
 #include "fix_fft.h"
  
 const int displayPIN = 8;
-const int numberLEDs=256;
+const int numberLEDs=64;
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(numberLEDs, displayPIN, NEO_GRB + NEO_KHZ800);
  
 const int AUDIOPIN=A0;
@@ -17,7 +17,7 @@ String message;
 void setup()
 {
     strip.begin();
-    strip.setBrightness(15);
+    strip.setBrightness(200);
     strip.show();
  
     Serial.begin(9600);
