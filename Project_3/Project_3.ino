@@ -22,6 +22,7 @@ const uint16_t colors[] = {
 int x    = matrix.width();
 int pass = 0;
 double in;
+int pin0 = 0;
 
 void setup() 
 {
@@ -34,13 +35,15 @@ void setup()
   matrix.show();
   delay(2000);
   pinMode(4, INPUT);
+	pin0 = analogRead(A0);
 }
 
 void loop() 
 {
   matrix.fillScreen( matrix.Color(0, 0, 0) );
   matrix.setCursor(x, 2);
-  matrix.print( F("||||||||||") );
+  matrix.print( F("Hello world!") );
+//	drawBitmap(0, -2, 0, 255, 255);
 
   if(--x < -45) 
   {
