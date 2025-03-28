@@ -1,0 +1,222 @@
+{
+  "uuid": "b1c0314a3edcbc265d6a6ab19a87ad45",
+  "path": "Offline/New Project",
+  "name": "New Project",
+  "content": "",
+  "created_at": "2024-12-19 15:20:22",
+  "updated_at": "2025-03-17 17:40:22",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "267b6cc767ba96492218a88b08c05465",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2bfda8c701df4b6db8594acc26a25912": 2,
+        "5a9ec2085ad6436d86701332d4451b76": 2,
+        "37db2301331f42c79a5d60bc04b55712": 1,
+        "40b57726879e4da9b662d0e4a85357ff": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 1,
+        "f0bc163659d742bc8f021d00cdeb85b2": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000u",
+          1,
+          "CAP-D4.0×F2.5",
+          "C1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "47u",
+          1,
+          "CAP-D4.0×F2.5",
+          "C2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HDR-F-2.54_1x15",
+          2,
+          "HDR-TH_12P-P2.54-V-M_PZ-2.54-38-3-7-1X12",
+          "H1,H2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124408"
+          }
+        ],
+        [
+          "Power Jack 5.5mmx2.1mm",
+          1,
+          "DC JACK 5.5MM X 2.1MM_1",
+          "J1",
+          {
+            "Manufacturer Part": "54-00166",
+            "Manufacturer": "Tensility",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "839-54-00166-ND"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          1,
+          "HDR-M-2.54_1X3",
+          "J2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C180248"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R_AXIAL-0.4",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "POTRES COPY COPY",
+          1,
+          "ПОТЕНЦИОМЕТР",
+          "RP1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1742218369,
+      "createTime": 1734610823,
+      "histories": [],
+      "created_at": "2024-12-19 15:20:23",
+      "updated_at": "2025-03-17 16:32:49"
+    },
+    {
+      "uuid": "1d0c73636e902aa73e5ea34709cef6c6",
+      "puuid": "b1c0314a3edcbc265d6a6ab19a87ad45",
+      "title": "PCB_New Project",
+      "filename": "PCB_New Project.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5905db98cde4487fbb177070aa85bbe1": 4,
+        "9619b74e85b84c68a23c4a9b8f346f21": 4,
+        "41faf7dd2f874a409a803f6bf9a473c9": 4,
+        "9f77654394344f25b3de138e0fe05ff6": 4,
+        "cba53f3a24014725aaf6289c8a966c56": 8,
+        "aaea41f2a69448c6bb13b4ea485c29ba": 8
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000u",
+          1,
+          "CAP-D4.0×F1.5",
+          "C1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "47u",
+          1,
+          "CAP-D4.0×F1.5",
+          "C2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "HDR-F-2.54_1x15",
+          2,
+          "HDR-F-2.54_1X15",
+          "H1,H2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C124408"
+          }
+        ],
+        [
+          "1k",
+          1,
+          "R_AXIAL-0.4",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "R_3386P_EU",
+          1,
+          "RES-ADJ-TH_3386P",
+          "RP1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1742222422,
+      "createTime": 1739889957,
+      "histories": [],
+      "created_at": "2025-02-18 17:45:57",
+      "updated_at": "2025-03-17 17:40:22"
+    }
+  ],
+  "sort": [],
+  "title": "New Project",
+  "foldername": "New Project",
+  "schfilename": "New Project.json",
+  "schfilemtime": 1742218369943
+}
